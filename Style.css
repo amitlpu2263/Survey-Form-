@@ -1,0 +1,151 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    background-color: #327018;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(6deg, rgba(2, 0, 36, 1) 0%, rgba(33, 125, 22, 0.981) 0%, rgba(0, 212, 255, 1) 100%);
+}
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+
+.left-section, .right-section {
+    flex: 1 1 50%; 
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+
+.title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: green;
+    text-align: center;
+}
+
+
+.container p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.user-details {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.input-box {
+    flex: 1 1 45%;
+    min-width: 280px; 
+    margin-bottom: 15px;
+    padding: 0 10px;
+}
+
+.input-box .details {
+    font-weight: bold;
+    color: rgb(20, 19, 19);
+}
+
+.input-box input[type="text"], .input-box input[type="email"], .input-box input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Age box styling */
+.ages, .proficiency-in-coding, .codingcontest, .about {
+    width: 100%;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 10px;
+}
+
+.age-box {
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    color: black;
+}
+
+.option span, .ages span, .proficiency-in-coding span, .codingcontest span, .about span {
+    font-weight: bold;
+
+}
+
+select, input[type="radio"], label {
+    margin: 5px 0;
+}
+
+.submit-button {
+    text-align: center;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.submit-button input[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50; 
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.submit-button input[type="submit"]:hover {
+    background-color: #45a049; 
+}
+
+::placeholder {
+    color: #0eba0b;
+    opacity: 1; 
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+}
+
+.form-sections {
+    width: 100%;
+    padding: 0 10px;
+}
